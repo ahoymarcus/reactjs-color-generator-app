@@ -24,12 +24,23 @@ const SingleColor = ({ rgb, weight, type, hexColor, index }) => {
 
   const hexValue = `#${hexColor}`;
 
+  const handleClick = (e) => {
+    setAlert(true);
+    navigator.clipboard.writeText(hexValue);
+  }
+
+
   return (
-    <article className={`color ${type === 'shade' ? 'color-light' : 'color-value' }`} style={{backgroundColor:`rgb(${bcg})` }}>
+    <article 
+      className={`color ${type === 'shade' ? 'color-light' : 'color-value' }`} 
+      style={{backgroundColor:`rgb(${bcg})` }}
+      onClick={handleClick}
+    >
       <p className="percent-value">
         {weight}
       </p>
       <p className="color-value">{hexValue}</p>
+      {alert && <p className="alert">copied to clipboard</p>}
     </article>
   );
 }
