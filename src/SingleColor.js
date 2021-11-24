@@ -5,13 +5,16 @@ import rgbToHex from './utils'
 
 const SingleColor = ({ rgb, weight, hexColor, index }) => {
   const [ alert, setAlert ] = useState(false);
-  
 
-  // #f15025
+
   // a variável rgb é um array
   const bcg = rgb.join(',');
   console.log(bcg);
-
+  
+  // #f15025
+  // 1. Receber proprieddade Hex como props
+  console.log(hexColor);
+  // 2. Usar uma função utilitária para converter o valor RGB para Hex
   const hex = rgbToHex(...rgb);
 
 
@@ -20,7 +23,7 @@ const SingleColor = ({ rgb, weight, hexColor, index }) => {
       <p className="percent-value">
         {weight}
       </p>
-      <p className="color-value">{hex}</p>
+      <p className="color-value">{hexColor}</p>
     </article>
   );
 }
