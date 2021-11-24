@@ -2,11 +2,15 @@
 
 <br />
 
-O projeto trabalha com a propriedade CSS de HSL (Hue, Saturation, Lightness) para renderizar o espectro de luminosidade e sombreamento de uma cor a partir do valor passado pelo usuário por formulário.
+O projeto trabalha com a propriedade HSL (Hue, Saturation, Lightness) da linguagem CSS, para com ela controlar a renderização do espectro de luminosidade e de sombreamento de uma cor escolhida a partir do valor passado pelo usuário por formulário.
 
 <br />
 
-Como funcionalidades gerais, o app realiza validação dos valores para garantir que são compatíveis com a propriedade HSL, além de utilizar também da API Clipboard para permitir que o usuário copie os valores das cores com clique do mouse.
+Como funcionalidades gerais, o app utiliza a biblioteca Values.js para fazer a validação dos valores passados pelo formulário de modo a garantir valores compatíveis com a propriedade HSL.
+
+<br />
+
+Finalmente, o app também se utilizada da API web Clipboard para permitir que o usuário copie os valores das cores renderizadas com o clique do botão do mouse.
 
 <br />
 
@@ -20,15 +24,9 @@ Conjunto de projetos de frontend inspirados na apresentação do professor **Joh
 
 <br />
 
-### Imagem do card com Lista de Contatos:
+### Imagem do mostrando a funcionalidade de copiar para o **clipboard**:
 
-![Imagem do card com Lista de Contatos](/public/images/lista-de-contatos.png)
-
-<br />
-
-### Imagem da funcionalidade acrescida de Aniversariantes do Dia:
-
-![Imagem da funcionalidade acrescida de Aniversariantes do Dia](/public/images/aniversariantes-do-dia.png)
+![Imagem do mostrando a funcionalidade de copiar para o clipboard](/public/images/reactjs-color-generator-app.png)
 
 <br />
 <br />

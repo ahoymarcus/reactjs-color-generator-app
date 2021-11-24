@@ -153,7 +153,7 @@ Color Generator
 }
 
 .aside {
-  background-color: hsl(88deg 83% 86%); /*hsl(88deg 69% 75%);*/
+  background-color: hsl(88deg 69% 75%); /*hsl(88deg 83% 86%);*/
   color: #893721;
   text-align: center;
   align-items: center;

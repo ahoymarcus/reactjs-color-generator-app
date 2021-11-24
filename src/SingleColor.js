@@ -13,7 +13,7 @@ const SingleColor = ({ rgb, weight, type, hexColor, index }) => {
   
   // #f15025
   // 1. Receber proprieddade Hex como props
-  console.log(hexColor);
+  //console.log(hexColor);
   // 2. Usar uma função utilitária para converter o valor RGB para Hex
   const hex = rgbToHex(...rgb);
 
@@ -25,6 +25,8 @@ const SingleColor = ({ rgb, weight, type, hexColor, index }) => {
   const hexValue = `#${hexColor}`;
 
   const handleClick = (e) => {
+    console.log(hexValue);
+
     setAlert(true);
     navigator.clipboard.writeText(hexValue);
   }

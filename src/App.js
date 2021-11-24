@@ -15,11 +15,11 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('submiting form...', color);
+    //console.log('submiting form...', color);
 
     try {
       let colors = new Values(color).all(10);
-      console.log(colors);
+      //console.log(colors);
 
       setList(colors);
     } catch (err) {
@@ -69,9 +69,6 @@ function App() {
 
         <p>Quisque tempor sodales urna. Aenean vitae arcu et est aliquet egestas. Quisque tincidunt nec ex nec faucibus. Curabitur vitae sem in tellus aliquet consequat. Vestibulum sed fringilla felis, sit amet feugiat sem. Nullam ligula leo, porttitor bibendum varius ac, egestas ut risus. Aliquam imperdiet erat sed neque vehicula tincidunt. Nunc id justo nec orci aliquam sollicitudin sit amet eget tortor.</p>
 
-        <p>Morbi imperdiet, felis vel iaculis vulputate, sem odio posuere augue, et convallis ex magna in metus. Aliquam vitae tellus nulla. Curabitur pulvinar at erat id rhoncus. Morbi sit amet vulputate mauris. Sed auctor et nisi id varius. Donec luctus ex in lorem porta, vel facilisis massa vehicula. Etiam viverra cursus augue, ut sagittis lectus tempor nec. Curabitur sit amet dapibus lectus. Fusce malesuada erat condimentum sagittis posuere. Vestibulum a tempor risus, eget molestie odio.</p>
-
-        <p>Maecenas dignissim tortor in ornare sodales. Ut sit amet vulputate ligula. Etiam posuere iaculis sem a aliquet. Quisque condimentum justo sem, sit amet sollicitudin felis interdum nec. Curabitur purus elit, efficitur sed eros a, tincidunt sodales leo. Aenean lacinia justo et orci fermentum, quis dictum sem vehicula. Pellentesque sagittis posuere urna, sed dapibus enim porta ac. Etiam convallis tincidunt enim ut venenatis.</p>
       </section>
     </>
   );
