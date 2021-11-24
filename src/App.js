@@ -61,7 +61,18 @@ function App() {
           })
         }
       </section>
-      
+      <section className="aside">
+        <h3>Chose your favorite colors and hues!!!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisl est, fringilla vel congue ut, ultricies in lacus. Sed porta gravida bibendum. Praesent ac ante maximus neque gravida suscipit sed non neque. Nam sollicitudin dolor quis eros vestibulum, eget porttitor lorem finibus. Maecenas aliquam nisl nisl, vel imperdiet eros tincidunt ac. Cras placerat imperdiet enim et finibus. Fusce tristique ipsum in lacus imperdiet, et posuere magna finibus. Fusce dignissim magna justo, ullamcorper volutpat quam fermentum venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum sodales commodo magna, venenatis fermentum odio malesuada in. Aliquam ultrices, nunc sed dictum gravida, est urna ornare tortor, at fringilla magna ligula tincidunt nibh. Etiam purus ipsum, lobortis et justo nec, rutrum aliquet tellus. Praesent nunc ipsum, pharetra ut lacus eget, porttitor dignissim lorem. Integer ut dictum purus.</p>
+
+        <p>Phasellus et ullamcorper risus, efficitur suscipit mauris. Aenean efficitur sapien convallis neque elementum mattis. Fusce vulputate aliquet massa vel blandit. Praesent vel hendrerit magna. Sed in risus diam. Sed vitae orci ac lorem malesuada finibus. Nunc aliquet rhoncus ligula, in cursus tellus bibendum ornare. Aliquam nec convallis turpis, non faucibus dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis blandit sem, quis rhoncus est rutrum a. Duis elit ipsum, ultricies sit amet justo non, ullamcorper convallis nisl.</p>
+
+        <p>Quisque tempor sodales urna. Aenean vitae arcu et est aliquet egestas. Quisque tincidunt nec ex nec faucibus. Curabitur vitae sem in tellus aliquet consequat. Vestibulum sed fringilla felis, sit amet feugiat sem. Nullam ligula leo, porttitor bibendum varius ac, egestas ut risus. Aliquam imperdiet erat sed neque vehicula tincidunt. Nunc id justo nec orci aliquam sollicitudin sit amet eget tortor.</p>
+
+        <p>Morbi imperdiet, felis vel iaculis vulputate, sem odio posuere augue, et convallis ex magna in metus. Aliquam vitae tellus nulla. Curabitur pulvinar at erat id rhoncus. Morbi sit amet vulputate mauris. Sed auctor et nisi id varius. Donec luctus ex in lorem porta, vel facilisis massa vehicula. Etiam viverra cursus augue, ut sagittis lectus tempor nec. Curabitur sit amet dapibus lectus. Fusce malesuada erat condimentum sagittis posuere. Vestibulum a tempor risus, eget molestie odio.</p>
+
+        <p>Maecenas dignissim tortor in ornare sodales. Ut sit amet vulputate ligula. Etiam posuere iaculis sem a aliquet. Quisque condimentum justo sem, sit amet sollicitudin felis interdum nec. Curabitur purus elit, efficitur sed eros a, tincidunt sodales leo. Aenean lacinia justo et orci fermentum, quis dictum sem vehicula. Pellentesque sagittis posuere urna, sed dapibus enim porta ac. Etiam convallis tincidunt enim ut venenatis.</p>
+      </section>
     </>
   );
 }

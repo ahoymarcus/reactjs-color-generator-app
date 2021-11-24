@@ -2,11 +2,11 @@
 
 <br />
 
-O projeto consome dados de um arquivo e renderiza os dados num cartão apresentando dados pessoais, especialmente idade e data de aniversário.
+O projeto trabalha com a propriedade CSS de HSL (Hue, Saturation, Lightness) para renderizar o espectro de luminosidade e sombreamento de uma cor a partir do valor passado pelo usuário por formulário.
 
 <br />
 
-**Tendo sido adicionado ao projeto a funcionalidade de selecionar apenas os dados de aniversariantes do dia.**
+Como funcionalidades gerais, o app realiza validação dos valores para garantir que são compatíveis com a propriedade HSL, além de utilizar também da API Clipboard para permitir que o usuário copie os valores das cores com clique do mouse.
 
 <br />
 
