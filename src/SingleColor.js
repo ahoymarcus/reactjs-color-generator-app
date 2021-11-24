@@ -29,6 +29,14 @@ const SingleColor = ({ rgb, weight, type, hexColor, index }) => {
     navigator.clipboard.writeText(hexValue);
   }
 
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setAlert(false);
+    }, 3000);
+
+    return () => clearTimeout(timeout);
+  }, [alert]);
+
 
   return (
     <article 
