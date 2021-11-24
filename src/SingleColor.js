@@ -8,10 +8,12 @@ const SingleColor = ({ rgb, weight, index }) => {
   
   const bcg = rgb.join(',');
   console.log(bcg);
-  
+
 
   return (
-    <h4>single color</h4>
+    <article className={`color`} style={{backgroundColor:`rgb(${bcg})` }}>
+      {' '}
+    </article>
   );
 }
 
